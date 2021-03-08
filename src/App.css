@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  align-items: center;
 }
 
-.App-logo {
+button
+{
+    margin: 5px;
+}
+
+.TileCard{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
